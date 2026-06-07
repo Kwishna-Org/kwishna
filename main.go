@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/kwishna-org/kwishna/cli"
+)
 
 func main(){
-	fmt.Println("init")
+	cli.Execute()
 }
 
